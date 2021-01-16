@@ -17,6 +17,8 @@
 }
 
 
+
+
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -2247,6 +2249,7 @@ a.button.contact:hover,
     position: relative;
     height: 240px;
     padding-top: 75px;
+    margin-top: 8em;
 }
 
 #footer .scrollup {

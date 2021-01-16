@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <title>Elixir - HTML Template</title>
     <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Yellowtail%7cCabin:400,500,600,700,400italic,700italic%7cLibre+Baskerville:400italic%7cGreat+Vibes%7cOswald:400,300,700%7cOpen+Sans:600italic,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Yellowtail%7cCabin:400,500,600,700,400italic,700italic%7cLibre+Baskerville:400italic%7cGreat+Vibes%7cOswald:400,300,700%7cOpen+Sans:600italic,700'
+        rel='stylesheet' type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700'
+        rel='stylesheet' type='text/css'>
 
     <!-- META TAGS -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +30,7 @@
     <link rel="stylesheet" href="css/swipebox.css">
 
 
- <!-- Colors Style -->
+    <!-- Colors Style -->
     <link rel="stylesheet" href="css/color/wine.css">
     <link rel="stylesheet" href="css/color/gold.css">
     <link rel="stylesheet" href="css/color/bluegray.css">
@@ -42,357 +47,74 @@
 
         #header {
             position: fixed;
-            top:0px;
+            top: 0px;
             left: 0px;
-            z-index:1001;
+            z-index: 1001;
             width: 100%;
             height: 90px;
-            background-color: #fff!important;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.11);
+            background-color: #fff !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
             padding-top: 20px;
         }
 
         #header .menu-item a {
             color: #818181;
         }
+
         #header.overflow {
-            top:-100px;
+            top: -100px;
             left: 0px;
-            background-color: #fff!important;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.11);
+            background-color: #fff !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
             -webkit-transition: all 0.3s ease-in;
             -o-transition: all 0.3s ease-in;
             transition: all 0.3s ease-in;
             -webkit-font-smoothing: antialiased;
         }
     </style>
- 
-  
 
-     
+
+
+
     <!--[if lt IE 9]>
         <meta http-equiv="X-UA-Compatible" content="IE=8" />
         <script src="./js/html5shiv.js"></script>
         <script src="./js/respond.js"></script>
     <![endif]-->
 </head>
+
 <body>
 
-        
-        <!-- BEGIN HEADER -->
-        <header id="header" role="banner" class="">
-            <div class="jt_row container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle menu" data-toggle="collapse" data-target=".navbar-main-collapse">
+
+    <!-- BEGIN HEADER -->
+    <header id="header" role="banner" class="">
+        <div class="jt_row container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle menu" data-toggle="collapse"
+                    data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand  " href="#home">
-                        <h1 class="titulo1">Pizzeria <div class="titulo2">Simo</div> </h1>
-                    </a>
-                </div>
-
-                <!-- BEGIN NAVIGATION MENU-->
-                <nav class="collapse navbar-collapse navbar-right navbar-main-collapse" role="navigation">
-                    <ul id="nav" class="nav navbar-nav navigation">
-                        <li class="page-scroll menu-item"><a href="index-multipage.html">Inicio</a></li>
-                        <li class="page-scroll menu-item"><a href="about.html">Acerca nosotros</a></li>
-                        <li class="page-scroll menu-item current"><a href="#menu">Carta</a></li>
-                        <li class="page-scroll menu-item"><a href="gallery.html">Galleria</a></li>
-                        <li class="page-scroll menu-item"><a href="reservations.html">Reservaciones</a></li>
-                        <li class="page-scroll menu-item"><a href="contact.html">Ubicacion</a></li>
-                    </ul>
-                </nav>
-                <!-- EN NAVIGATION MENU -->
+                </button>
+                <a class="navbar-brand  " href="#home">
+                    <h1 class="titulo1">Pizzeria <div class="titulo2">Simo</div>
+                    </h1>
+                </a>
             </div>
-        </header>
-        <!-- END HEADER -->
 
-
-
-
-      
-
-
-
-        <!-- BEGIN MENU SECTION -->
-        <section id="menu" class="section menu">
-
-            <div class="container">
-                    <div class="jt_row jt_row-fluid row">
-
-                        <div class="col-md-12 jt_col column_container">
-                         <div class="voffset100"></div>
-                            <div class="title first">Pizzas</div>
-                            <div class="voffset10"></div>
-                            <div class="subtitle">Exclusive and delicious pizzas</div>
-                            <img class="center taman" src="images/pizza.jpg" alt="Pizzas">
-                            
-                        </div>
-                        
-                        <div class="col-md-4 jt_col column_container">    
-                        <div class="voffset10"></div>
-                            <ul class="menu">
-                                <li>
-                                    Italian pizza
-                                    <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
-                                </li>
-                                <li>
-                                    Jabugo Ham
-                                    <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span></div>
-                                </li>
-                                <li>
-                                    Cesar
-                                    <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span></div>
-                                </li>
-                                <li>
-                                    Pizza BBQ
-                                    <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Pizza Swiss
-                                    <div class="detail">Different swiss cheeses and Secret sauce<span class="price">$17.99</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                      
-                        <div class="col-md-4 jt_col column_container"> 
-                        <div class="voffset10"></div>   
-                            <ul class="menu">
-                                <li>
-                                    Italian pizza
-                                    <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
-                                </li>
-                                <li>
-                                    Jabugo Ham
-                                    <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span></div>
-                                </li>
-                                <li>
-                                    Cesar
-                                    <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span></div>
-                                </li>
-                                <li>
-                                    Pizza BBQ
-                                    <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Pizza Swiss
-                                    <div class="detail">Different swiss cheeses and Secret sauce<span class="price">$17.99</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 jt_col column_container">
-                        <div class="voffset10"></div>    
-                            <ul class="menu">
-                                <li>
-                                    Italian pizza
-                                    <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
-                                </li>
-                                <li>
-                                    Jabugo Ham
-                                    <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span></div>
-                                </li>
-                                <li>
-                                    Cesar
-                                    <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span></div>
-                                </li>
-                                <li>
-                                    Pizza BBQ
-                                    <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Pizza Swiss
-                                    <div class="detail">Different swiss cheeses and Secret sauce<span class="price">$17.99</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-
-                    <div class="jt_row jt_row-fluid row">
-                        <div class="col-md-12 jt_col column_container">
-                            <div class="title">Salads</div>
-                            <div class="voffset10"></div>
-                            <div class="subtitle">Exclusive and delicious salads</div>
-                            <img class="center taman" src="images/salads.jpg" alt="Salads">
-                            
-                        </div>
-                        
-                        <div class="col-md-4 jt_col column_container">    
-                        <div class="voffset30"></div>
-                            <ul class="menu">
-                                <li>
-                                    Italian Salad
-                                    <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
-                                </li>
-                                <li>
-                                    Jabugo Ham
-                                    <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span></div>
-                                </li>
-                                <li>
-                                    Cesar
-                                    <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span></div>
-                                </li>
-                                <li>
-                                    BBQ Salad
-                                    <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Swiss Salad
-                                    <div class="detail">Different swiss cheeses and Secret sauce<span class="price">$17.99</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                      
-                        <div class="col-md-4 jt_col column_container">
-                        <div class="voffset30"></div>    
-                            <ul class="menu">
-                                <li>
-                                    Italian Salad
-                                    <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
-                                </li>
-                                <li>
-                                    Jabugo Ham
-                                    <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span></div>
-                                </li>
-                                <li>
-                                    Cesar
-                                    <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span></div>
-                                </li>
-                                <li>
-                                    BBQ Salad
-                                    <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Swiss Salad
-                                    <div class="detail">Different swiss cheeses and Secret sauce<span class="price">$17.99</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 jt_col column_container"> 
-                        <div class="voffset30"></div>   
-                            <ul class="menu">
-                                <li>
-                                    Italian Salad
-                                    <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
-                                </li>
-                                <li>
-                                    Jabugo Ham
-                                    <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span></div>
-                                </li>
-                                <li>
-                                    Cesar
-                                    <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span></div>
-                                </li>
-                                <li>
-                                    BBQ Salad
-                                    <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Swiss Salad
-                                    <div class="detail">Different swiss cheeses and Secret sauce<span class="price">$17.99</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-
-                    <div class="jt_row jt_row-fluid row">
-                        <div class="col-md-12 jt_col column_container">
-                            <div class="title">Desserts</div>
-                            <div class="voffset10"></div>
-                            <div class="subtitle">Exclusive and delicious desserts</div>
-                            <img class="center" src="images/desserts.png" alt="Desserts">
-                            
-                        </div>
-                        
-                        <div class="col-md-4 jt_col column_container">    
-                        <div class="voffset60"></div>
-                            <ul class="menu">
-                                <li>
-                                    Creme Brulee
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream <span class="price">$7.49</span></div>
-                                </li>
-                                <li>
-                                    Warm chocolate
-                                    <div class="detail">Amarena Cherries, Kirsch Cream<span class="price">$6.50</span></div>
-                                </li>
-                                <li>
-                                    Cheese cake
-                                    <div class="detail">Cheese creme, ice cream, strawberry <span class="price">$4.50</span></div>
-                                </li>
-                                <li>
-                                    Apple Turnover
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Sorbet with fruit
-                                    <div class="detail">Lemon, orange, strawberry or mango<span class="price">$8.50</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                      
-                        <div class="col-md-4 jt_col column_container">
-                        <div class="voffset60"></div>    
-                            <ul class="menu">
-                                <li>
-                                    Creme Brulee
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream <span class="price">$7.49</span></div>
-                                </li>
-                                <li>
-                                    Warm chocolate
-                                    <div class="detail">Amarena Cherries, Kirsch Cream<span class="price">$6.50</span></div>
-                                </li>
-                                <li>
-                                    Cheese cake
-                                    <div class="detail">Cheese creme, ice cream, strawberry <span class="price">$4.50</span></div>
-                                </li>
-                                <li>
-                                    Apple Turnover
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Sorbet with fruit
-                                    <div class="detail">Lemon, orange, strawberry or mango<span class="price">$8.50</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 jt_col column_container">
-                        <div class="voffset60"></div>    
-                            <ul class="menu">
-                                <li>
-                                    Creme Brulee
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream <span class="price">$7.49</span></div>
-                                </li>
-                                <li>
-                                    Warm chocolate
-                                    <div class="detail">Amarena Cherries, Kirsch Cream<span class="price">$6.50</span></div>
-                                </li>
-                                <li>
-                                    Cheese cake
-                                    <div class="detail">Cheese creme, ice cream, strawberry <span class="price">$4.50</span></div>
-                                </li>
-                                <li>
-                                    Apple Turnover
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Sorbet with fruit
-                                    <div class="detail">Lemon, orange, strawberry or mango<span class="price">$8.50</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div class="col-md-4 col-md-offset-4 jt_col column_container">  
-                            <div class="voffset60"></div>
-                            <div class="ornament"></div>
-                        </div>
-                    </div>
-            </div>
-            <div class="voffset60"></div>
-        </section>
-        <!-- END MENU SECTION -->
+            <!-- BEGIN NAVIGATION MENU-->
+            <nav class="collapse navbar-collapse navbar-right navbar-main-collapse" role="navigation">
+                <ul id="nav" class="nav navbar-nav navigation">
+                    <li class="page-scroll menu-item"><a href="index-multipage.html">Inicio</a></li>
+                    <li class="page-scroll menu-item"><a href="about.html">Acerca nosotros</a></li>
+                    <li class="page-scroll menu-item current"><a href="#menu">Carta</a></li>
+                    <li class="page-scroll menu-item"><a href="gallery.html">Galleria</a></li>
+                    <li class="page-scroll menu-item"><a href="reservations.html">Reservaciones</a></li>
+                    <li class="page-scroll menu-item"><a href="contact.html">Ubicacion</a></li>
+                </ul>
+            </nav>
+            <!-- EN NAVIGATION MENU -->
+        </div>
+    </header>
+    <!-- END HEADER -->
 
 
 
@@ -400,79 +122,397 @@
 
 
 
-        <!-- BEGIN CONTACT SECTION -->
-        <section id="contact" class="section contact dark">
-            <div class="container">
-                <div class="jt_row jt_row-fluid row">
 
-                    <div class="col-md-12 jt_col column_container">
-                        <h2 class="section-title">Contacto</h2>
-                    </div>
-                    <div class="col-md-6 col-md-offset-3 jt_col column_container">
-                        <div class="section-subtitle">
-                            Plaza de la Nogalera, 7, 29620 Torremolinos, Málaga +34 609 84 88 15
-                        </div>
-                    </div>
-                        <form action="mail.php" method="post" id="contactform" class="contact-form">
-                                <div class="col-md-6 jt_col column_container">    
-                                    <input type="text" id="name" name="name" class="text name required" placeholder="Nombre" >
-                                    <input type="email" id="email" name="email" class="tex email required" placeholder="Email" >
-                                    <input type="text" id="subject" name="subject" placeholder="Asunto" >
-                                </div>
+    <!-- BEGIN MENU SECTION -->
+    <section id="menu" class="section menu">
 
-                                <div class="col-md-6 jt_col column_container">    
-                                     <textarea id="message" name="message" class="text area required" placeholder="Mensaje" rows="10"></textarea>
-                                </div>
+        <div class="container">
+            <div class="jt_row jt_row-fluid row">
 
-                                <div class="col-md-4 col-md-offset-4 jt_col column_container">
-                                <div class="formSent"><strong>Tu mensaje se ha enviado!</strong> Gracias por contactarnos.</div>     
-                                <input type="submit" class="button contact center" value="Enviar" >
-                                </div>
-                                
-                            </form>
-                    <div class="voffset100"></div>
-                </div>
-                    <div class="voffset50"></div>
-            </div>
-            
-
-        </section>
-        <!-- END CONTACT SECTION -->
-
-
-
-
-
-        <!-- BEGIN MAP SECTION -->
-        <section class="section ">
-
-            <div class="container">
                 <div class="col-md-12 jt_col column_container">
                     <div class="voffset100"></div>
-                    <h2 class="section-title">Ubicacion</h2>
+                    <div class="title first">Pizzas</div>
+                    <div class="voffset10"></div>
+                    <div class="subtitle">Exclusive and delicious pizzas</div>
+                    <img class="center taman" src="images/pizza.jpg" alt="Pizzas">
+
+                </div>
+
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset10"></div>
+                    <ul class="menu">
+                        <li>
+                            Italian pizza
+                            <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
+                        </li>
+                        <li>
+                            Jabugo Ham
+                            <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Cesar
+                            <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            Pizza BBQ
+                            <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
+                        </li>
+                        <li>
+                            Pizza Swiss
+                            <div class="detail">Different swiss cheeses and Secret sauce<span
+                                    class="price">$17.99</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset10"></div>
+                    <ul class="menu">
+                        <li>
+                            Italian pizza
+                            <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
+                        </li>
+                        <li>
+                            Jabugo Ham
+                            <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Cesar
+                            <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            Pizza BBQ
+                            <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
+                        </li>
+                        <li>
+                            Pizza Swiss
+                            <div class="detail">Different swiss cheeses and Secret sauce<span
+                                    class="price">$17.99</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset10"></div>
+                    <ul class="menu">
+                        <li>
+                            Italian pizza
+                            <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
+                        </li>
+                        <li>
+                            Jabugo Ham
+                            <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Cesar
+                            <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            Pizza BBQ
+                            <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
+                        </li>
+                        <li>
+                            Pizza Swiss
+                            <div class="detail">Different swiss cheeses and Secret sauce<span
+                                    class="price">$17.99</span></div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.1623783911755!2d-4.50094888471509!3d36.62247787998555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fbed656376f1%3A0xa82b62fbfbd506e7!2sPlaza%20de%20la%20Nogalera%2C%207%2C%2029620%20Torremolinos%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1610813881469!5m2!1ses!2ses" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    
-        </section>
-        <!-- END MAP SECTION -->
 
 
-    
 
-        <!-- BEGIN FOOTER -->
-        <footer id="footer" class="section" role="contentinfo">
-            <div class="container">
-                <ul class="social">
-                    <li><a href="#" class="icon tw"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="icon fb"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="icon in"><i class="fa fa-pinterest"></i></a></li>
-                    <li><a href="#" class="icon go"><i class="fa fa-google-plus"></i></a></li>
-                </ul>
+            <div class="jt_row jt_row-fluid row">
+                <div class="col-md-12 jt_col column_container">
+                    <div class="title">Salads</div>
+                    <div class="voffset10"></div>
+                    <div class="subtitle">Exclusive and delicious salads</div>
+                    <img class="center taman" src="images/salads.jpg" alt="Salads">
+
+                </div>
+
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset30"></div>
+                    <ul class="menu">
+                        <li>
+                            Italian Salad
+                            <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
+                        </li>
+                        <li>
+                            Jabugo Ham
+                            <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Cesar
+                            <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            BBQ Salad
+                            <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
+                        </li>
+                        <li>
+                            Swiss Salad
+                            <div class="detail">Different swiss cheeses and Secret sauce<span
+                                    class="price">$17.99</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset30"></div>
+                    <ul class="menu">
+                        <li>
+                            Italian Salad
+                            <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
+                        </li>
+                        <li>
+                            Jabugo Ham
+                            <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Cesar
+                            <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            BBQ Salad
+                            <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
+                        </li>
+                        <li>
+                            Swiss Salad
+                            <div class="detail">Different swiss cheeses and Secret sauce<span
+                                    class="price">$17.99</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset30"></div>
+                    <ul class="menu">
+                        <li>
+                            Italian Salad
+                            <div class="detail">Mozarella, Pomodoro & Parmagiano<span class="price">$14.49</span></div>
+                        </li>
+                        <li>
+                            Jabugo Ham
+                            <div class="detail">Jabugo ham, eggs, cheese & Red Pepper<span class="price">$20.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Cesar
+                            <div class="detail">Cesar sauce, Toasts, cheese & Chicken<span class="price">$9.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            BBQ Salad
+                            <div class="detail">Onion, Bacon, BBQ sauce & Cheese<span class="price">$7.99</span></div>
+                        </li>
+                        <li>
+                            Swiss Salad
+                            <div class="detail">Different swiss cheeses and Secret sauce<span
+                                    class="price">$17.99</span></div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </footer>
-        <!-- END FOOTER -->
+
+
+
+            <div class="jt_row jt_row-fluid row">
+                <div class="col-md-12 jt_col column_container">
+                    <div class="title">Desserts</div>
+                    <div class="voffset10"></div>
+                    <div class="subtitle">Exclusive and delicious desserts</div>
+                    <img class="center" src="images/desserts.png" alt="Desserts">
+
+                </div>
+
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset60"></div>
+                    <ul class="menu">
+                        <li>
+                            Creme Brulee
+                            <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream <span class="price">$7.49</span>
+                            </div>
+                        </li>
+                        <li>
+                            Warm chocolate
+                            <div class="detail">Amarena Cherries, Kirsch Cream<span class="price">$6.50</span></div>
+                        </li>
+                        <li>
+                            Cheese cake
+                            <div class="detail">Cheese creme, ice cream, strawberry <span class="price">$4.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Apple Turnover
+                            <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream<span class="price">$7.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            Sorbet with fruit
+                            <div class="detail">Lemon, orange, strawberry or mango<span class="price">$8.50</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset60"></div>
+                    <ul class="menu">
+                        <li>
+                            Creme Brulee
+                            <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream <span class="price">$7.49</span>
+                            </div>
+                        </li>
+                        <li>
+                            Warm chocolate
+                            <div class="detail">Amarena Cherries, Kirsch Cream<span class="price">$6.50</span></div>
+                        </li>
+                        <li>
+                            Cheese cake
+                            <div class="detail">Cheese creme, ice cream, strawberry <span class="price">$4.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Apple Turnover
+                            <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream<span class="price">$7.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            Sorbet with fruit
+                            <div class="detail">Lemon, orange, strawberry or mango<span class="price">$8.50</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 jt_col column_container">
+                    <div class="voffset60"></div>
+                    <ul class="menu">
+                        <li>
+                            Creme Brulee
+                            <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream <span class="price">$7.49</span>
+                            </div>
+                        </li>
+                        <li>
+                            Warm chocolate
+                            <div class="detail">Amarena Cherries, Kirsch Cream<span class="price">$6.50</span></div>
+                        </li>
+                        <li>
+                            Cheese cake
+                            <div class="detail">Cheese creme, ice cream, strawberry <span class="price">$4.50</span>
+                            </div>
+                        </li>
+                        <li>
+                            Apple Turnover
+                            <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream<span class="price">$7.99</span>
+                            </div>
+                        </li>
+                        <li>
+                            Sorbet with fruit
+                            <div class="detail">Lemon, orange, strawberry or mango<span class="price">$8.50</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-md-offset-4 jt_col column_container">
+                    <div class="voffset60"></div>
+                    <div class="ornament"></div>
+                </div>
+            </div>
+        </div>
+        <div class="voffset60"></div>
+    </section>
+    <!-- END MENU SECTION -->
+
+
+
+
+
+
+
+    <!-- BEGIN CONTACT SECTION -->
+    <section id="contact" class="section contact dark">
+        <div class="container">
+            <div class="jt_row jt_row-fluid row">
+
+                <div class="col-md-12 jt_col column_container">
+                    <h2 class="section-title">Contacto</h2>
+                </div>
+                <div class="col-md-6 col-md-offset-3 jt_col column_container">
+                    <div class="section-subtitle">
+                        Plaza de la Nogalera, 7, 29620 Torremolinos, Málaga +34 609 84 88 15
+                    </div>
+                </div>
+                <form action="mail.php" method="post" id="contactform" class="contact-form">
+                    <div class="col-md-6 jt_col column_container">
+                        <input type="text" id="name" name="name" class="text name required" placeholder="Nombre">
+                        <input type="email" id="email" name="email" class="tex email required" placeholder="Email">
+                        <input type="text" id="subject" name="subject" placeholder="Asunto">
+                    </div>
+
+                    <div class="col-md-6 jt_col column_container">
+                        <textarea id="message" name="message" class="text area required" placeholder="Mensaje"
+                            rows="10"></textarea>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-4 jt_col column_container">
+                        <div class="formSent"><strong>Tu mensaje se ha enviado!</strong> Gracias por contactarnos.</div>
+                        <input type="submit" class="button contact center" value="Enviar">
+                    </div>
+
+                </form>
+                <div class="voffset100"></div>
+            </div>
+            <div class="voffset50"></div>
+        </div>
+
+
+    </section>
+    <!-- END CONTACT SECTION -->
+
+
+
+
+
+    <!-- BEGIN MAP SECTION -->
+    <section class="section mapas">
+
+        <div class="container">
+            <div class="col-md-12 jt_col column_container">
+                <div class="voffset100"></div>
+                <h2 class="section-title">Ubicacion</h2>
+            </div>
+        </div>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.1623783911755!2d-4.50094888471509!3d36.62247787998555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fbed656376f1%3A0xa82b62fbfbd506e7!2sPlaza%20de%20la%20Nogalera%2C%207%2C%2029620%20Torremolinos%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1610813881469!5m2!1ses!2ses"
+            width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+
+    </section>
+    <!-- END MAP SECTION -->
+
+
+
+
+    <!-- BEGIN FOOTER -->
+    <footer id="footer" class="section" role="contentinfo">
+        <div class="container">
+            <ul class="social">
+                <li><a href="#" class="icon tw"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="icon fb"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="icon in"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#" class="icon go"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
     <a href="#0" class="cd-top">Top</a>
     <!-- BEGIN Scripts-->
 
@@ -494,16 +534,17 @@
     <script src="js/jquery.swipebox.js"></script>
 
     <script type="text/javascript">
-    ;( function( $ ) {
+        ; (function ($) {
 
-        $( '.swipebox' ).swipebox();
+            $('.swipebox').swipebox();
 
-    } )( jQuery );
+        })(jQuery);
     </script>
 
-    
+
     <!-- END Scripts -->
 
-    
+
 </body>
+
 </html>
